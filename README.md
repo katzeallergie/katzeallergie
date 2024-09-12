@@ -10,7 +10,7 @@
 ### Links
 |Name|Link|
 |---|---|
-|AtCorder|[katze_allergie](https://atcoder.jp/?lang=ja)|
+|AtCorder|[katze_allergie](https://atcoder.jp/users/katze_allergie)|
 |YOUTRUST|[YOUTRUST](https://youtrust.jp/users/254692389fd10c76b49e31e8e9f928eb)|
 
   <br>
