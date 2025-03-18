@@ -23,7 +23,7 @@
 ## 🌱 Skills
 <div>
   <h3>Work (still learing...)</h2>
-  <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=js,ts,react,next,java,spring,docker,aws,jenkins,supabase" />  
+  <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=js,ts,react,redux,next,java,spring,docker,aws,jenkins,supabase,vercel,prisma" />  
     <h3>Hobby</h2>
   <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=flutter,dart,firebase,gcp" />  
 </div>
