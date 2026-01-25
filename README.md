@@ -39,18 +39,18 @@
 <!-- LANGUAGE_STATS_START -->
 | Language | Percentage |
 |----------|------------|
-| C# | ██████████████████████ 45.72% |
-| Python | ██████████████ 29.1% |
-| JavaScript | ████ 9.06% |
-| PHP | █ 2.99% |
-| CSS | █ 2.61% |
-| TypeScript | █ 2.16% |
-| Java |  1.39% |
-| HTML |  1.38% |
-| Go |  1.12% |
-| ShaderLab |  1.07% |
+| Python | ████████████████████████ 49.83% |
+| C# | ██████████ 21.56% |
+| PHP | ██ 5.23% |
+| JavaScript | ██ 4.34% |
+| CSS | █ 3.96% |
+| TypeScript | █ 3.68% |
+| Java | █ 2.43% |
+| Go |  1.96% |
+| HTML |  1.67% |
+| SCSS |  0.98% |
 
-<sub>Last updated: 2026-01-25 15:52 UTC</sub>
+<sub>Last updated: 2026-01-25 16:01 UTC</sub>
 <!-- LANGUAGE_STATS_END -->
 
 <!--
