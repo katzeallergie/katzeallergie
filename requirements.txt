@@ -1,0 +1,2 @@
+# Python dependencies for GitHub stats updater
+requests>=2.31.0

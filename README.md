@@ -14,7 +14,6 @@
 |YOUTRUST|[YOUTRUST](https://youtrust.jp/users/254692389fd10c76b49e31e8e9f928eb)|
 
   <br>
-  
 
 <!-- 3. 好きな技術スタックに変更 -->
 <!-- ライトモート：theme=light, ダークモート：theme=dark -->
@@ -23,9 +22,9 @@
 ## 🌱 Skills
 <div>
   <h3>Work (still learing...)</h2>
-  <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=js,ts,react,redux,next,java,spring,docker,aws,jenkins,supabase,vercel,prisma" />  
+  <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=js,ts,react,redux,next,java,spring,docker,aws,jenkins,supabase,vercel,prisma" />
     <h3>Hobby</h2>
-  <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=flutter,dart,firebase,gcp" />  
+  <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=flutter,dart,firebase,gcp" />
 </div>
 
 <br>
@@ -35,21 +34,27 @@
 
 ## 🏃‍♀️ Activities
 
-<div align="left"> 
-  <img alt="Top Langs" height="170px" src="https://github-readme-stats.vercel.app/api?username=katzeallergie&theme=vue-dark&layout=compact" />
-  <img alt="github stats" height="170px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=katzeallergie&theme=vue-dark&layout=compact&hide=c%23" />
-</div>
+### 📊 Contribution Stats (including private repos)
 
+<!-- CONTRIBUTION_STATS_START -->
+Stats will be automatically updated here...
+<!-- CONTRIBUTION_STATS_END -->
+
+### 💻 Language Stats (including private repos)
+
+<!-- LANGUAGE_STATS_START -->
+Language stats will be automatically updated here...
+<!-- LANGUAGE_STATS_END -->
 
 <!--
 This repository is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
+- 🔭 I'm currently working on ...
+- 🌱 I'm currently learning ...
+- 👯 I'm looking to collaborate on ...
+- 🤔 I'm looking for help with ...
 - 💬 Ask me about ...
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
