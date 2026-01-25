@@ -34,39 +34,10 @@
 
 ## 🏃‍♀️ Activities
 
-### 📊 Contribution Stats (including private repos)
-
-<!-- CONTRIBUTION_STATS_START -->
-
-| 📊 Metric | Value |
-|-----------|-------|
-| 📦 Total Repos | 76 (18 public, 58 private) |
-| ⭐ Total Stars | 3 |
-| 🔀 Total Forks | 1 |
-| 📝 Total PRs | 189 |
-| 🐛 Total Issues | 54 |
-
-<sub>Last updated: 2026-01-25 15:43 UTC</sub>
-
-<!-- CONTRIBUTION_STATS_END -->
-
-### 💻 Language Stats (including private repos)
+### 💻 Language Stats
 
 <!-- LANGUAGE_STATS_START -->
-| Language | Percentage |
-|----------|------------|
-| Jupyter Notebook | ████████████████ 32.69% |
-| C# | ███████████████ 30.77% |
-| Python | █████████ 19.59% |
-| JavaScript | ███ 6.1% |
-| PHP | █ 2.02% |
-| CSS |  1.75% |
-| TypeScript |  1.45% |
-| Java |  0.94% |
-| HTML |  0.93% |
-| Go |  0.76% |
-
-<sub>Last updated: 2026-01-25 15:43 UTC</sub>
+Language stats will be automatically updated here...
 <!-- LANGUAGE_STATS_END -->
 
 <!--
