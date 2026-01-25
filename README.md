@@ -37,7 +37,20 @@
 ### 💻 Language Stats
 
 <!-- LANGUAGE_STATS_START -->
-Language stats will be automatically updated here...
+| Language | Percentage |
+|----------|------------|
+| C# | ██████████████████████ 45.72% |
+| Python | ██████████████ 29.1% |
+| JavaScript | ████ 9.06% |
+| PHP | █ 2.99% |
+| CSS | █ 2.61% |
+| TypeScript | █ 2.16% |
+| Java |  1.39% |
+| HTML |  1.38% |
+| Go |  1.12% |
+| ShaderLab |  1.07% |
+
+<sub>Last updated: 2026-01-25 15:52 UTC</sub>
 <!-- LANGUAGE_STATS_END -->
 
 <!--
