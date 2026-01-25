@@ -9,6 +9,56 @@ import requests
 from collections import defaultdict
 
 
+def get_language_stats(repos, headers, exclude_orgs=None):
+    """言語統計を取得"""
+    if exclude_orgs is None:
+        exclude_orgs = []
+
+    language_bytes = defaultdict(int)
+
+    print("\n=== Fetching language statistics ===")
+    if exclude_orgs:
+        print(f"Excluding organizations: {', '.join(exclude_orgs)}")
+    print("This may take a while...\n")
+
+    for repo in repos:
+        # フォークは除外
+        if repo["fork"]:
+            continue
+
+        # 特定のOrganizationを除外
+        if repo["owner"]["type"] == "Organization" and repo["owner"]["login"] in exclude_orgs:
+            continue
+
+        try:
+            lang_url = repo["languages_url"]
+            response = requests.get(lang_url, headers=headers)
+            response.raise_for_status()
+            languages = response.json()
+
+            for lang, bytes_count in languages.items():
+                # Jupyter Notebookを除外
+                if lang != "Jupyter Notebook":
+                    language_bytes[lang] += bytes_count
+        except Exception as e:
+            print(f"Warning: Could not fetch languages for {repo['name']}: {e}")
+            continue
+
+    # パーセンテージを計算
+    total_bytes = sum(language_bytes.values())
+    language_stats = {}
+
+    if total_bytes > 0:
+        for lang, bytes_count in sorted(language_bytes.items(), key=lambda x: x[1], reverse=True):
+            percentage = (bytes_count / total_bytes) * 100
+            language_stats[lang] = {
+                "bytes": bytes_count,
+                "percentage": round(percentage, 2)
+            }
+
+    return language_stats
+
+
 def test_repo_access(token):
     """アクセス可能なリポジトリを一覧表示"""
     headers = {
@@ -106,6 +156,19 @@ def test_repo_access(token):
     print(f"Organizations with access: {len(org_repos)}")
     if org_repos:
         print(f"Organization names: {', '.join(sorted(org_repos.keys()))}")
+
+    # 言語統計を取得（vrdevelを除外）
+    language_stats = get_language_stats(repos, headers, exclude_orgs=["vrdevel"])
+
+    # 言語統計を表示
+    if language_stats:
+        print("\n=== Language Statistics (Top 10, excluding Jupyter Notebook & vrdevel org) ===")
+        top_languages = sorted(language_stats.items(), key=lambda x: x[1]["percentage"], reverse=True)[:10]
+
+        for lang, data in top_languages:
+            bar_length = int(data["percentage"] / 2)  # 50% = 25文字のバー
+            bar = "█" * bar_length
+            print(f"{lang:20s} {bar} {data['percentage']:5.2f}%")
 
 
 def main():

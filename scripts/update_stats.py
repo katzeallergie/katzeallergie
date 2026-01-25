@@ -46,14 +46,21 @@ class GitHubStatsUpdater:
 
         return repos
 
-    def get_language_stats(self):
+    def get_language_stats(self, exclude_orgs=None):
         """言語使用統計を取得"""
+        if exclude_orgs is None:
+            exclude_orgs = []
+
         repos = self.get_user_repos()
         language_bytes = defaultdict(int)
 
         for repo in repos:
             # フォークは除外
             if repo["fork"]:
+                continue
+
+            # 特定のOrganizationを除外
+            if repo["owner"]["type"] == "Organization" and repo["owner"]["login"] in exclude_orgs:
                 continue
 
             try:
@@ -102,10 +109,15 @@ class GitHubStatsUpdater:
         result += f"\n\n<sub>Last updated: {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}</sub>"
         return result
 
-    def update_readme(self, readme_path="README.md"):
+    def update_readme(self, readme_path="README.md", exclude_orgs=None):
         """READMEファイルを更新"""
+        if exclude_orgs is None:
+            exclude_orgs = ["vrdevel"]  # デフォルトで除外するOrganization
+
         print("Fetching language stats...")
-        language_stats = self.get_language_stats()
+        if exclude_orgs:
+            print(f"Excluding organizations: {', '.join(exclude_orgs)}")
+        language_stats = self.get_language_stats(exclude_orgs=exclude_orgs)
 
         print("Formatting stats...")
         language_markdown = self.format_language_stats(language_stats)
