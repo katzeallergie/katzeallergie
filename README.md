@@ -19,12 +19,19 @@
 <!-- ライトモート：theme=light, ダークモート：theme=dark -->
 <!-- アイコンの選択肢一覧：https://arc.net/l/quote/zizyykfh -->
 
-## 🌱 Skills
+## 🌱 Skills (still learning...)
 <div>
-  <h3>Work (still learing...)</h2>
-  <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=js,ts,react,redux,next,java,spring,docker,aws,jenkins,supabase,vercel,prisma" />
-    <h3>Hobby</h2>
-  <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=flutter,dart,firebase,gcp" />
+  <h3>Frontend</h3>
+  <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=ts,react,redux,next,flutter,dart" />
+
+  <h3>Backend</h3>
+  <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=java,spring,go,graphql,django" />
+
+  <h3>Database</h3>
+  <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=mysql,postgres,dynamodb,prisma" />
+
+  <h3>Infrastructure</h3>
+  <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=docker,aws,gcp,terraform,githubactions,jenkins,firebase,supabase,vercel" />
 </div>
 
 <br>
