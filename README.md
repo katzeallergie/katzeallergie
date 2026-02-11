@@ -22,10 +22,10 @@
 ## 🌱 Skills (still learning...)
 <div>
   <h3>Frontend</h3>
-  <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=ts,react,redux,next,flutter,dart" />
+  <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=ts,react,redux,next,flutter,dart,vite" />
 
   <h3>Backend</h3>
-  <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=java,spring,go,graphql,django" />
+  <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=java,spring,go,graphql,django,nestjs" />
 
   <h3>Database</h3>
   <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=mysql,postgres,dynamodb,prisma" />
